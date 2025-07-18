@@ -11,7 +11,9 @@
   font-weight: 400;
   font-style: normal;
 }
-
+.hide{
+  display: none;
+}
 /* inter font */
 .inter-regular {
   font-family: "Inter", sans-serif;
@@ -171,6 +173,30 @@ hr{
   font-size: 24px;
   padding: 30px 0px 16px 0px;
 }
+/* donation */
+.donation-content{
+  width: 520px;
+}
+.donation-content-02{
+  width: 500px;
+}
+.donation-01,
+.donation-02{
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  margin-bottom: 100px;
+}
+.donation-description{
+  padding: 20px 0px 30px 0px;
+}
+
+
+
+
+
+
+
 
 
 /* media quarry */
@@ -213,4 +239,53 @@ hr{
   margin: 0 auto;
   margin-bottom: 50px;
 }
+.donate-plane-carts{
+  flex-direction: column;
+}
+.donate-plane-cart-01,
+.donate-plane-cart-02,
+.donate-plane-cart-03{
+  padding: 20px 0px;
+  margin: 0px;
+  text-align: center;
+  
+}
+.donate-plane-description{
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px 0px 50px 0px;
+}
+.donate-cart-description{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.donation-01{
+  flex-direction: column;
+  flex-wrap: wrap;
+  scroll-behavior:smooth;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.donation-02{
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  scroll-behavior: inherit;
+}
+.donation-title {
+  font-size: 35px;
+  text-align: center;
+}
+.donation-description {
+  font-size: 16px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+.donation-content .donation-btn{
+  margin-left: 150px;
+}
+
 }
