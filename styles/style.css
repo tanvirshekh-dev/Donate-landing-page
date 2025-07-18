@@ -44,3 +44,49 @@
   font-weight: 600;
   font-style: normal;
 }
+.max-width{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.primary-btn{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #FF5959;
+  padding: 16px 20px;
+  border-radius: 5px;
+  border: none;
+}
+.text-center{
+  text-align: center;
+}
+
+/* header styles */
+.header{
+  background-image: linear-gradient( rgba(18, 18, 18, 0), rgba(18, 18, 18, 1)), url(../images/Rectangle\ 237.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.header-content{
+  padding: 200px 0px;
+}
+.header-title{
+  font-size: 65px;
+  color: white;
+  max-width: 820px;
+  margin: 0 auto;
+  text-align: center;
+}
+.header-description{
+  font-size: 18px;
+  color: #FFFFFF;
+  max-width: 690px;
+  margin: 0 auto;
+  line-height: 30px;
+  padding: 20px 0px 30px 0px;
+}
