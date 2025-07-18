@@ -30,6 +30,8 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  font-size: 45px;
+  color: #121212;
 }
 
 /* poppins font */
@@ -106,8 +108,8 @@
 }
 /* donate today styles */
 .donate-today-title{
-  font-size: 45px;
-  color: #121212;
+  /* font-size: 45px; */
+  /* color: #121212; */
   padding: 130px 0px 20px 0px;
 }
 .donate-items{
@@ -137,6 +139,37 @@ hr{
 }
 .donate-today-btn{
   margin-bottom: 130px;
+}
+/* donate plane styles */
+.donate-plane-description{
+  width: 690px;
+  margin: 0 auto;
+  padding: 20px 0px 50px 0px;
+}
+.donate-plane-carts{
+  gap: 24px;
+  
+}
+.donate-plane-cart-01,
+.donate-plane-cart-02,
+.donate-plane-cart-03{
+  padding: 60px 20px 50px 20px;
+  border-radius: 8px;
+  margin-bottom: 130px;
+}
+.donate-plane-cart-01{
+  background-color: rgba(79, 157, 166, 0.1);
+}
+.donate-plane-cart-02{
+  background-color: rgba(255, 89, 89, 0.1);
+}
+.donate-plane-cart-03{
+  background-color: rgb(255, 244, 214);
+}
+.donate-cart-title{
+  color: #121212;
+  font-size: 24px;
+  padding: 30px 0px 16px 0px;
 }
 
 
